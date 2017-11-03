@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		004017971FA0ED0A0018B15D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004017961FA0ED0A0018B15D /* AppDelegate.swift */; };
+		004017991FA0ED0A0018B15D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004017981FA0ED0A0018B15D /* ViewController.swift */; };
+		0040179C1FA0ED0A0018B15D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0040179A1FA0ED0A0018B15D /* Main.storyboard */; };
+		004017A11FA0ED0A0018B15D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0040179F1FA0ED0A0018B15D /* LaunchScreen.storyboard */; };
+		004017AC1FA0ED0A0018B15D /* kemonoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004017AB1FA0ED0A0018B15D /* kemonoTests.swift */; };
+		004017B71FA0ED0A0018B15D /* kemonoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004017B61FA0ED0A0018B15D /* kemonoUITests.swift */; };
+		005F041C1FABA34500AFC51F /* Story.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 005F041B1FABA34500AFC51F /* Story.storyboard */; };
+		0078A45C1FAAF5F100E2351A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0078A45B1FAAF5D700E2351A /* Assets.xcassets */; };
+		0082C59A1FA9F293006A6AF8 /* frends.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0082C5991FA9F293006A6AF8 /* frends.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		004017A81FA0ED0A0018B15D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0040178B1FA0ED0A0018B15D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 004017921FA0ED0A0018B15D;
+			remoteInfo = kemono;
+		};
+		004017B31FA0ED0A0018B15D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0040178B1FA0ED0A0018B15D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 004017921FA0ED0A0018B15D;
+			remoteInfo = kemono;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		004017931FA0ED0A0018B15D /* kemono.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kemono.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		004017961FA0ED0A0018B15D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		004017981FA0ED0A0018B15D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0040179B1FA0ED0A0018B15D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		004017A01FA0ED0A0018B15D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		004017A21FA0ED0A0018B15D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		004017A71FA0ED0A0018B15D /* kemonoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kemonoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		004017AB1FA0ED0A0018B15D /* kemonoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kemonoTests.swift; sourceTree = "<group>"; };
+		004017AD1FA0ED0A0018B15D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		004017B21FA0ED0A0018B15D /* kemonoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kemonoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		004017B61FA0ED0A0018B15D /* kemonoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kemonoUITests.swift; sourceTree = "<group>"; };
+		004017B81FA0ED0A0018B15D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		005F041B1FABA34500AFC51F /* Story.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Story.storyboard; sourceTree = "<group>"; };
+		0078A45B1FAAF5D700E2351A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0082C5991FA9F293006A6AF8 /* frends.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = frends.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		004017901FA0ED0A0018B15D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		004017A41FA0ED0A0018B15D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		004017AF1FA0ED0A0018B15D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0040178A1FA0ED0A0018B15D = {
+			isa = PBXGroup;
+			children = (
+				004017951FA0ED0A0018B15D /* kemono */,
+				004017AA1FA0ED0A0018B15D /* kemonoTests */,
+				004017B51FA0ED0A0018B15D /* kemonoUITests */,
+				004017941FA0ED0A0018B15D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		004017941FA0ED0A0018B15D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				004017931FA0ED0A0018B15D /* kemono.app */,
+				004017A71FA0ED0A0018B15D /* kemonoTests.xctest */,
+				004017B21FA0ED0A0018B15D /* kemonoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		004017951FA0ED0A0018B15D /* kemono */ = {
+			isa = PBXGroup;
+			children = (
+				004017961FA0ED0A0018B15D /* AppDelegate.swift */,
+				004017981FA0ED0A0018B15D /* ViewController.swift */,
+				0040179A1FA0ED0A0018B15D /* Main.storyboard */,
+				005F041B1FABA34500AFC51F /* Story.storyboard */,
+				0078A45B1FAAF5D700E2351A /* Assets.xcassets */,
+				0082C5991FA9F293006A6AF8 /* frends.storyboard */,
+				0040179F1FA0ED0A0018B15D /* LaunchScreen.storyboard */,
+				004017A21FA0ED0A0018B15D /* Info.plist */,
+			);
+			path = kemono;
+			sourceTree = "<group>";
+		};
+		004017AA1FA0ED0A0018B15D /* kemonoTests */ = {
+			isa = PBXGroup;
+			children = (
+				004017AB1FA0ED0A0018B15D /* kemonoTests.swift */,
+				004017AD1FA0ED0A0018B15D /* Info.plist */,
+			);
+			path = kemonoTests;
+			sourceTree = "<group>";
+		};
+		004017B51FA0ED0A0018B15D /* kemonoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				004017B61FA0ED0A0018B15D /* kemonoUITests.swift */,
+				004017B81FA0ED0A0018B15D /* Info.plist */,
+			);
+			path = kemonoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		004017921FA0ED0A0018B15D /* kemono */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 004017BB1FA0ED0A0018B15D /* Build configuration list for PBXNativeTarget "kemono" */;
+			buildPhases = (
+				0040178F1FA0ED0A0018B15D /* Sources */,
+				004017901FA0ED0A0018B15D /* Frameworks */,
+				004017911FA0ED0A0018B15D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kemono;
+			productName = kemono;
+			productReference = 004017931FA0ED0A0018B15D /* kemono.app */;
+			productType = "com.apple.product-type.application";
+		};
+		004017A61FA0ED0A0018B15D /* kemonoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 004017BE1FA0ED0A0018B15D /* Build configuration list for PBXNativeTarget "kemonoTests" */;
+			buildPhases = (
+				004017A31FA0ED0A0018B15D /* Sources */,
+				004017A41FA0ED0A0018B15D /* Frameworks */,
+				004017A51FA0ED0A0018B15D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				004017A91FA0ED0A0018B15D /* PBXTargetDependency */,
+			);
+			name = kemonoTests;
+			productName = kemonoTests;
+			productReference = 004017A71FA0ED0A0018B15D /* kemonoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		004017B11FA0ED0A0018B15D /* kemonoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 004017C11FA0ED0A0018B15D /* Build configuration list for PBXNativeTarget "kemonoUITests" */;
+			buildPhases = (
+				004017AE1FA0ED0A0018B15D /* Sources */,
+				004017AF1FA0ED0A0018B15D /* Frameworks */,
+				004017B01FA0ED0A0018B15D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				004017B41FA0ED0A0018B15D /* PBXTargetDependency */,
+			);
+			name = kemonoUITests;
+			productName = kemonoUITests;
+			productReference = 004017B21FA0ED0A0018B15D /* kemonoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0040178B1FA0ED0A0018B15D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "張峻浩";
+				TargetAttributes = {
+					004017921FA0ED0A0018B15D = {
+						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+					004017A61FA0ED0A0018B15D = {
+						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 004017921FA0ED0A0018B15D;
+					};
+					004017B11FA0ED0A0018B15D = {
+						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 004017921FA0ED0A0018B15D;
+					};
+				};
+			};
+			buildConfigurationList = 0040178E1FA0ED0A0018B15D /* Build configuration list for PBXProject "kemono" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0040178A1FA0ED0A0018B15D;
+			productRefGroup = 004017941FA0ED0A0018B15D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				004017921FA0ED0A0018B15D /* kemono */,
+				004017A61FA0ED0A0018B15D /* kemonoTests */,
+				004017B11FA0ED0A0018B15D /* kemonoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		004017911FA0ED0A0018B15D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				004017A11FA0ED0A0018B15D /* LaunchScreen.storyboard in Resources */,
+				0082C59A1FA9F293006A6AF8 /* frends.storyboard in Resources */,
+				005F041C1FABA34500AFC51F /* Story.storyboard in Resources */,
+				0078A45C1FAAF5F100E2351A /* Assets.xcassets in Resources */,
+				0040179C1FA0ED0A0018B15D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		004017A51FA0ED0A0018B15D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		004017B01FA0ED0A0018B15D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0040178F1FA0ED0A0018B15D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				004017991FA0ED0A0018B15D /* ViewController.swift in Sources */,
+				004017971FA0ED0A0018B15D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		004017A31FA0ED0A0018B15D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				004017AC1FA0ED0A0018B15D /* kemonoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		004017AE1FA0ED0A0018B15D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				004017B71FA0ED0A0018B15D /* kemonoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		004017A91FA0ED0A0018B15D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 004017921FA0ED0A0018B15D /* kemono */;
+			targetProxy = 004017A81FA0ED0A0018B15D /* PBXContainerItemProxy */;
+		};
+		004017B41FA0ED0A0018B15D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 004017921FA0ED0A0018B15D /* kemono */;
+			targetProxy = 004017B31FA0ED0A0018B15D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0040179A1FA0ED0A0018B15D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0040179B1FA0ED0A0018B15D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0040179F1FA0ED0A0018B15D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				004017A01FA0ED0A0018B15D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		004017B91FA0ED0A0018B15D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		004017BA1FA0ED0A0018B15D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		004017BC1FA0ED0A0018B15D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = kemono/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hao.kemono;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		004017BD1FA0ED0A0018B15D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = kemono/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hao.kemono;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		004017BF1FA0ED0A0018B15D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = kemonoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hao.kemonoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kemono.app/kemono";
+			};
+			name = Debug;
+		};
+		004017C01FA0ED0A0018B15D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = kemonoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hao.kemonoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kemono.app/kemono";
+			};
+			name = Release;
+		};
+		004017C21FA0ED0A0018B15D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = kemonoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hao.kemonoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = kemono;
+			};
+			name = Debug;
+		};
+		004017C31FA0ED0A0018B15D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = kemonoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hao.kemonoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = kemono;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0040178E1FA0ED0A0018B15D /* Build configuration list for PBXProject "kemono" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				004017B91FA0ED0A0018B15D /* Debug */,
+				004017BA1FA0ED0A0018B15D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		004017BB1FA0ED0A0018B15D /* Build configuration list for PBXNativeTarget "kemono" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				004017BC1FA0ED0A0018B15D /* Debug */,
+				004017BD1FA0ED0A0018B15D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		004017BE1FA0ED0A0018B15D /* Build configuration list for PBXNativeTarget "kemonoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				004017BF1FA0ED0A0018B15D /* Debug */,
+				004017C01FA0ED0A0018B15D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		004017C11FA0ED0A0018B15D /* Build configuration list for PBXNativeTarget "kemonoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				004017C21FA0ED0A0018B15D /* Debug */,
+				004017C31FA0ED0A0018B15D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0040178B1FA0ED0A0018B15D /* Project object */;
+}
